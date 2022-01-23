@@ -5,8 +5,8 @@ html {
 }
 
 .page {
-    height: 100%;
-    width: 95%;
+	height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -15,45 +15,32 @@ html {
 	display: flex;
 	color: #8055FF;
 	background-color: #A8A8FF;
-	width: 100%;
     height: 2rem;
-	margin-left: 2%;
-	margin-top: 2%;
 	font-weight: bold;
     font-size: 26px;
+	margin: 2rem;
 }
 
 .searchline {
 	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8px 0 8px 0;
+    padding: 0.5rem;
 	background-color: white;
-	width: 100%;
-	height: 3rem;
-	margin-left: 2%;
-	margin-top: 2%;
 	border: solid #A8A8FF 2px;
 	color: #8055FF;
-    align-items: flex-start;
-    
+    margin: 0rem 2rem;
 }
 
 .searchline__block1 {
 	background-color: #8055FF;
 	width: 16rem;
 	height: 2rem;
-    align-items: flex-start;
-    padding: 8px;
     margin-right: 1rem;
-    margin-left: 1rem;
 }
 
 .searchline__block2 {
 	background-color: #8055FF;
 	width: 2rem;
 	height: 2rem;
-    padding: 8px;
     margin-right: auto;
 }
 
@@ -61,37 +48,32 @@ html {
 	background-color: #8055FF;
 	width: 2rem;
 	height: 2rem;
-    padding: 8px;
-    margin-right: 1rem;
 }
 
 .table {
     display: flex;
 	background-color: #A8A8FF;
-	width: 100%;
-	height: 75%;
-	margin-left: 2%;
-	margin-top: 2%;
 	color: #8055FF;
-    justify-content: space-between;
     flex-direction: column;
     border: solid #8055FF 1px;
-    position: relative;
+	overflow: hidden;
+	margin: 2rem 2rem 0 2rem;
+	height: 100%;
 }
 
 .table__header {
 	background-color: #8055FF;
-	width: 100%;
 	height: 40px;
-    align-items: center;
-    padding: 0.5 rem 1 rem;
-    position: absolute;
+}
+
+.table__body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+  	overflow-y: auto;
 }
 
 .table__footer {
-    bottom: 0;
 	background-color: #8055FF;
-	width: 100%;
 	height: 40px;
-    position: absolute;
 }
