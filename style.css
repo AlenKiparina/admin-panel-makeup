@@ -57,7 +57,7 @@ html {
   background-color: #a8a8ff;
   color: #8055ff;
   flex-direction: column;
-  border: solid #8055ff 1px;
+  border: solid #8055ff 2px;
   overflow: hidden;
   height: 100%;
 }
