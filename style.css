@@ -1,0 +1,80 @@
+body,
+html {
+  background: white;
+  font-family: "Calibri";
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 3rem 0;
+}
+
+.headtitle {
+  display: flex;
+  color: #8055ff;
+  background-color: #a8a8ff;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 2rem;
+  line-height: 32px;
+}
+
+.searchline {
+  display: flex;
+  padding: 0.5rem;
+  background-color: white;
+  border: solid #a8a8ff 2px;
+  color: #8055ff;
+  margin-bottom: 2rem;
+}
+
+.searchline__block1 {
+  background-color: #8055ff;
+  width: 16rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.searchline__block2 {
+  background-color: #8055ff;
+  width: 2rem;
+  height: 2rem;
+  margin-right: auto;
+}
+
+.searchline__block3 {
+  background-color: #8055ff;
+  width: 2rem;
+  height: 2rem;
+}
+
+.table {
+  display: flex;
+  background-color: #a8a8ff;
+  color: #8055ff;
+  flex-direction: column;
+  border: solid #8055ff 2px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.table__header {
+  background-color: #8055ff;
+  height: 3rem;
+}
+
+.table__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.table__footer {
+  background-color: #8055ff;
+  height: 3rem;
+}
