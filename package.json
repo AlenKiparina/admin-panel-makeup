@@ -6,7 +6,6 @@
   "scripts": {
     "prettier": "prettier --write \".\""
   },
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlenKiparina/admin-panel-makeup.git"
