@@ -1,0 +1,92 @@
+body,
+html {
+  background: white;
+  font-family: "Calibri";
+}
+
+.searchbar {
+  width: 352px;
+  height: 192px;
+  border: 1px dashed #8055ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 48px;
+  justify-content: space-between;
+  line-height: 16px;
+}
+    
+.empty_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+    
+.empty_block__line {
+  border: #459DF5 1px solid;
+  height: 32px;
+  width: 256px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #bad8f5;
+  box-sizing: border-box;
+  padding: 8px 36px 8px 32px;
+}
+
+.empty_block__line::placeholder {
+    color: #bad8f5;
+}
+
+.empty_block__icon {
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  left: 9px;
+}
+
+.filled_block {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #bad8f5;
+}
+    
+.filled_block__line {
+  border: #459DF5 1px solid;
+  height: 32px;
+  width: 256px;
+  border-radius: 4px;
+  font-size: 13px;
+  box-sizing: border-box;
+  padding: 8px 36px 8px 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.filled_block__line::placeholder {
+    color: black;
+}
+
+.filled_block__button {
+  position: absolute; 
+  display: flex;
+  border: 0;
+  background: inherit;
+  right: 11.5px;
+  height: 1rem;
+  width: 1rem;
+  padding: 0;
+}
+    
+.filled_block__icon {
+  position: absolute;
+}
+
+.filled_block__icon2 {
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  left: 9px;
+}
