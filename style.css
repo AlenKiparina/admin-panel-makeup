@@ -64,7 +64,7 @@ html {
 
 .table__header {
   background-color: #8055ff;
-  height: 3rem;
+  flex: 0 0 48px;
 }
 
 .table__body {
@@ -76,5 +76,5 @@ html {
 
 .table__footer {
   background-color: #8055ff;
-  height: 3rem;
+  flex: 0 0 48px;
 }
