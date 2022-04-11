@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Checkbox-radio</title>
+    <link rel="stylesheet" href="checkbox-radio.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+
+  <body>
+  <div class="blocks">
+    <div class="checkbox">
+      <div class="checkbox__block">
+        <input type="checkbox" class="checkbox__input" id="checkbox_empty"/>
+        <label class="checkbox__label" for="checkbox_empty">
+          <svg class="checkbox__img" viewBox="0 0 16 16" fill="#8055FF" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z"/>
+          </svg>
+        </label>
+      </div>
+      <div class="checkbox__block"> 
+        <input type="checkbox" class="checkbox__input" id="checkbox_checked" checked/>
+        <label class="checkbox__label" for="checkbox_checked">
+          <svg class="checkbox__img" viewBox="0 0 16 16" fill="#8055FF" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <div class="radio">
+      <div class="radio__block">
+        <input type="radio" name="radio" class="radio__input" id="radio_empty" />
+        <label class="radio__label" for="radio_empty"></label>
+      </div>
+      <div class="radio__block">
+        <input type="radio" name="radio" class="radio__input" id="radio_checked" checked/>
+        <label class="radio__label" for="radio_checked"></label>
+      </div>
+    </div>
+  </div> 
+  </body>
+</html>
